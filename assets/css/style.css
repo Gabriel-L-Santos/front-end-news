@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.descricao {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: max-content;
+}
