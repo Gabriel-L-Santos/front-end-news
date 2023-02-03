@@ -1,20 +1,21 @@
 body {
+    background: #000000 url("background.jpg") no-repeat fixed;
     display: flex;
     flex-direction: column;
-}
-
-main {
-    
+    font-family: 'Press Start 2P', cursive;
 }
 
 .titulo {
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .descricao {
     display: flex;
     justify-content: center;
+    color: white;
+    text-align: center;
 }
 
 .formulario {
@@ -22,11 +23,24 @@ main {
     justify-content: center;
 }
 
+label {
+    display: flex;
+    justify-content: center;
+}
+
 ul {
     list-style: none;
+    color: white;
 }
 
 .lista {
     display: grid;
     grid-template-columns: max-content;
+    justify-content: center;
+    margin: 15px;
+}
+
+.input-padrao {
+    padding: 12px;
+    width: 260px;
 }
