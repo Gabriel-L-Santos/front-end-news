@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: center;
     color: white;
+    font-weight: bolder;
 }
 
 .descricao {
@@ -43,4 +44,25 @@ ul {
 .input-padrao {
     padding: 12px;
     width: 260px;
+    border-radius: 15px;
+}
+
+button {
+    display: flex;
+    margin-left: 38%;
+    padding: 12px 20px;
+    background-color: #4c4ce3;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #0d0dd5;
+    transition: 1s all;
+    transform: scale(0.9);
+    color: #dfe51b;
 }
