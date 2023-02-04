@@ -22,6 +22,17 @@ body {
 .formulario {
     display: flex;
     justify-content: center;
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: #1207ee;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+.itens-formulario {
+    margin-right: 30px;
 }
 
 label {
@@ -47,22 +58,34 @@ ul {
     border-radius: 15px;
 }
 
+.lista-checkbox {
+    color: white;
+    margin-left: 32px;
+    margin-bottom: 25px;
+}
+
+.checkbox {
+    all: unset;
+    margin: 15px;
+    display: inline-block;
+}
+
 button {
     display: flex;
-    margin-left: 38%;
+    margin-left: 40%;
     padding: 12px 20px;
-    background-color: #4c4ce3;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     border-radius: 5px;
     border: 1px solid #000000;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: transform 450ms;
 }
   
 button:hover {
-    background-color: #0d0dd5;
-    transition: 1s all;
+    background-color: #000000;
+    transition: transform 450ms;
     transform: scale(0.9);
-    color: #dfe51b;
+    color: #ffffff;
 }
