@@ -79,11 +79,12 @@ ul {
 
 button {
     display: flex;
-    margin-left: 40%;
+    margin-left: 33%;
     padding: 12px 20px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
     border-radius: 5px;
     border: 1px solid #000000;
     cursor: pointer;
