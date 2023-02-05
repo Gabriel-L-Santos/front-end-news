@@ -10,11 +10,19 @@ body {
     justify-content: center;
     color: white;
     font-weight: bolder;
+    font-size: 25px;
 }
+
+h1 > span {
+    border: 5px dashed #ffffff;
+    padding: 15px;
+  }
 
 .descricao {
     display: flex;
     justify-content: center;
+    width: 50%;
+    margin-left: 25%;
     color: white;
     text-align: center;
 }
@@ -23,7 +31,7 @@ body {
     display: flex;
     justify-content: center;
     max-width: 600px;
-    margin: 45px auto;
+    margin: 4px auto;
     text-align: center;
     background-color: #1207ee;
     padding: 30px;
@@ -60,8 +68,7 @@ ul {
 
 .lista-checkbox {
     color: white;
-    margin-left: 32px;
-    margin-bottom: 25px;
+    margin: 25px 0 25px 28px;
 }
 
 .checkbox {
@@ -89,3 +96,15 @@ button:hover {
     transform: scale(0.9);
     color: #ffffff;
 }
+
+@media screen and (max-width: 480px) {
+	.titulo {
+		font-size: 15px;
+	}
+
+    button {
+        margin: auto;
+        margin-left: 35%;
+    }
+}
+
