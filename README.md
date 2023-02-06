@@ -8,7 +8,7 @@
 
 ![descrição em breve...](./assets/img-gif-readme/oldflix-screenshot.png)
 
-Introdução em breve...
+Este é um projeto de uma página de inscrição na Newsletter de um site de notícias fictício chamado "Front-end News", usando HTML, CSS e Javascript.
 
 ## Tabela de Conteúdos
 
