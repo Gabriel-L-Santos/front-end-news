@@ -102,6 +102,38 @@ button:hover {
     color: #ffffff;
 }
 
+/* Página de confirmação de inscrição - subscribe-confirm */
+.text-confirmation {
+    color: white;
+    margin-right: -32%;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgb(0 0 0);
+}
+
+.botao-retorno {
+    display: flex;
+    margin-left: 34%;
+    margin-top: 2%;
+    padding: 10px 20px;
+    height: 35px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px rgb(0 0 0);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    transition: transform 450ms;
+}
+
+.botao-retorno:hover {
+    background-color: #000000;
+    transition: transform 450ms;
+    transform: scale(0.9);
+    color: #ffffff;
+}
+
 /* MOBILE */
 @media screen and (min-width: 375px) and (max-width: 600px) {
 	.titulo {
@@ -109,6 +141,11 @@ button:hover {
 	}
 
     button {
+        margin: auto;
+        margin-left: 25%;
+    }
+
+    .botao-retorno {
         margin: auto;
         margin-left: 25%;
     }
