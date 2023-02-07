@@ -1,6 +1,6 @@
 # Front-end News
 
-## Link do projeto
+## Deploy do projeto
 
 <link em breve...>
 
@@ -13,19 +13,11 @@ Este é um projeto de uma página de inscrição na Newsletter de um site de not
 ## Tabela de Conteúdos
 
 - [Meu Processo de Desenvolvimento](#meu-processo-de-desenvolvimento)
-- [Recursos Usados](#recursos-usados)
 - [Autor do Projeto](#autor-do-projeto)
 
 ## Meu processo de Desenvolvimento
 
 Texto em breve...
-
-### Recursos Usados
-
-- [Slick](http://kenwheeler.github.io/slick/) - em breve...
-
-- [jQuery](https://jquery.com/) - em breve...
-
 ## Autor do Projeto
 
 - GitHub - [Gabriel-L-Santos](https://github.com/Gabriel-L-Santos)
