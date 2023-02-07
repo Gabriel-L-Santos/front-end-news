@@ -11,13 +11,13 @@ function typeWriter(elemento) {
   const titulo = document.querySelector('span');
   typeWriter(titulo);
 
-  //* animação 'p' - descrição *//
+//* animação 'p' - descrição *//
 
-  function typeWriter2(elemento) {
+function typeWriter2(elemento) {
     const textoArray = elemento.innerHTML.split('');
     elemento.innerHTML = '';
     textoArray.forEach((letra, i) => {
-      setTimeout(() => elemento.innerHTML += letra, 70 * i);
+      setTimeout(() => elemento.innerHTML += letra, 30 * i);
     });
   }
 
