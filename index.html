@@ -1,58 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/favicon" href="assets/img/favicon.png">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/favicon" href="assets/img/favicon.png">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
-    <title>Front-end News</title>
-</head>
-<body>
-    <main>
-        <section class="titulo">
-            <h1><span>Front-end News</span></h1>
-        </section>
+        <title>Front-end News</title>
+    </head>
+    <body>
+        <main>
+            <section class="titulo">
+                <h1><span>Front-end News</span></h1>
+            </section>
 
-        <section class="descricao">
-            <p>Inscreva-se na Newsletter da Front-end News para receber todos os dias as últimas notícias do universo de desenvolvimento front-end.</p>
-        </section>
+            <section class="descricao">
+                <p>Inscreva-se na Newsletter da Front-end News para receber todos os dias as últimas notícias do universo de desenvolvimento front-end.</p>
+            </section>
 
-        <section class="formulario">
-            <form class="itens-formulario">
-                <ul>
-                    <label for="nomesobrenome">Nome e sobrenome</label>
-                    <li class="lista"><input type="name" id="nomesobrenome" class="input-padrao" required placeholder="Nome e Sobrenome"></li>
+            <section class="formulario">
+                <form class="itens-formulario" method="get" action="subscribe-confirm.html">
+                    <ul>
+                        <label for="nomesobrenome">Nome e sobrenome</label>
+                        <li class="lista"><input type="name" id="nomesobrenome" class="input-padrao" required placeholder="Nome e Sobrenome"></li>
 
-                    <label for="telefone">Telefone</label>
-                    <li class="lista"><input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX"></li>
+                        <label for="telefone">Telefone</label>
+                        <li class="lista"><input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX"></li>
 
-                    <label for="email">Email</label>
-                    <li class="lista"><input type="email" id="email" class="input-padrao" required placeholder="seunome@gmail.com"></li>
-                </ul>
+                        <label for="email">Email</label>
+                        <li class="lista"><input type="email" id="email" class="input-padrao" required placeholder="seunome@gmail.com"></li>
+                    </ul>
 
-                <fieldset class="lista-checkbox">
-                    <legend>Quais tecnologias você usa:</legend>
-                    <label class="checkbox"><input type="checkbox">HTML</label>
-                    <label class="checkbox"><input type="checkbox">CSS</label>
-                    <label class="checkbox"><input type="checkbox">Javascript</label>
-                    <label class="checkbox"><input type="checkbox">jQuery</label>
-                    <label class="checkbox"><input type="checkbox">Bootstrap</label>
-                    <label class="checkbox"><input type="checkbox">Vue.js</label>
-                    <label class="checkbox"><input type="checkbox">Angular</label>
-                    <label class="checkbox"><input type="checkbox">Sass</label>
-                    <label class="checkbox"><input type="checkbox">Tailwind</label>
-                    <label class="checkbox"><input type="checkbox">React</label>
-                    <label class="checkbox"><input type="checkbox">Backbone.js</label>
-                    <label class="checkbox"><input type="checkbox">Materialize</label>
-                    <label class="checkbox"><input type="checkbox">Angular.js</label>
-                </fieldset>
+                    <fieldset class="lista-checkbox">
+                        <legend>Quais tecnologias você usa:</legend>
+                        <label class="checkbox"><input type="checkbox">HTML</label>
+                        <label class="checkbox"><input type="checkbox">CSS</label>
+                        <label class="checkbox"><input type="checkbox">Javascript</label>
+                        <label class="checkbox"><input type="checkbox">jQuery</label>
+                        <label class="checkbox"><input type="checkbox">Bootstrap</label>
+                        <label class="checkbox"><input type="checkbox">Vue.js</label>
+                        <label class="checkbox"><input type="checkbox">Angular</label>
+                        <label class="checkbox"><input type="checkbox">Sass</label>
+                        <label class="checkbox"><input type="checkbox">Tailwind</label>
+                        <label class="checkbox"><input type="checkbox">React</label>
+                        <label class="checkbox"><input type="checkbox">Backbone.js</label>
+                        <label class="checkbox"><input type="checkbox">Materialize</label>
+                        <label class="checkbox"><input type="checkbox">Angular.js</label>
+                    </fieldset>
 
-                <button type="submit" onclick="">Inscrever-se</button>
-            </form>
-        </section>
-    </main>
-</body>
+                    <button type="submit" onsubmit="window.location.href='subscribe-confirm.html';">Inscrever-se</button>
+                </form>
+            </section>
+        </main>
+
+        <script src="assets/js/script.js"></script>
+    </body>
 </html>
