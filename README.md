@@ -2,7 +2,10 @@
 
 ## Deploy do projeto
 
-<link em breve...>
+<https://front-end-news.netlify.app>
+
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+</p>
 
 ![demonstração do site front-end news em gif](./assets/img-gif-readme/front-end-news-showcase.gif)
 
